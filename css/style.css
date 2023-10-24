@@ -105,3 +105,9 @@ html{
 .jumbo-text{
   padding-top: 3rem;
 }
+.jumbo-data-title{
+  font-size: 1.3rem;
+}
+.jumbo-text small{
+  font-size: 0.6rem;
+}
