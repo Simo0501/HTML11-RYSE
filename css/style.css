@@ -3,14 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  font-family: 'Inter', sans-serif;
+}
 :root {
   --blu: #1C1A4E;
   --lightblu: #6869EF;
   --orange: #FF4A22;
   --redtext: #FF4C29;
 }
+.text-red{
+  color: var(--redtext);
+}
 .img{
   width: 100%;
+  padding-right: 150px;
 }
 .container{
   width: 100%;
@@ -27,7 +34,6 @@
 }
 .col{
   display: flex;
-  align-items: center;
   gap: 2rem;
 }
 .col-action button{ 
@@ -47,6 +53,7 @@
 }
 .row{
   display: flex;
+  gap: 2rem;
 }
 .col-40{
   width: 40%;
@@ -73,3 +80,20 @@
   height: 18px;
   background-color:#FB7A46;
 }
+.jumbo-text{
+  padding-top: 3rem;
+  color: white;
+}
+.jumbo-title{
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+.jumbo-title img{
+  height: 1.5rem;
+  vertical-align: middle;
+}
+.jumbo-subtitle{
+  font-size: 2rem;
+  margin-bottom: 1.7rem;
+}
+.jumbo-text
