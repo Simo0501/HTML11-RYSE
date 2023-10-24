@@ -80,9 +80,11 @@ html{
   height: 18px;
   background-color:#FB7A46;
 }
+.jumbo{
+  color: white;
+}
 .jumbo-text{
   padding-top: 3rem;
-  color: white;
 }
 .jumbo-title{
   font-size: 1rem;
@@ -96,4 +98,6 @@ html{
   font-size: 2rem;
   margin-bottom: 1.7rem;
 }
-.jumbo-text
+.jumbo-text{
+  padding-top: 3rem;
+}
