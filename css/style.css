@@ -36,6 +36,10 @@ html{
   display: flex;
   gap: 2rem;
 }
+.col-column{
+  display: flex;
+  flex-direction: column;
+}
 .col-action button{ 
   display: flex;
   align-items: center;
