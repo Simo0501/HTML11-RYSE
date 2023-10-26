@@ -24,6 +24,12 @@ html{
 .img, svg {
   width: 100%;
 }
+.flex col{
+  display: flex;
+}
+.align-start{
+  display: flex;
+}
 .container{
   width: 100%;
   height: 700px;
@@ -65,12 +71,6 @@ html{
 .row{
   display: flex;
   gap: 2rem;
-}
-.flex-col{
-  display: flex;
-}
-.align-start{
-  display: flex;
 }
 .col-40{
   width: 40%;
