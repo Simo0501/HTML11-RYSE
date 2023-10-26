@@ -124,6 +124,7 @@ html{
 }
 .col-svg{
   display: flex;
+  height: 300px;
 }
 .col-svg-word{
   display: flex;
@@ -132,14 +133,19 @@ html{
   display: flex;
 }
 .col-svg-text{
-  margin: 2rem;
+  margin: 1rem;
 }
 .jumbo-svg{
   width: 70px;
   height: 70px;
-  margin: 2rem;
+  margin: 1rem;
 }
 .col-svg-text h4{
-  font-size: small;
-  color:#928282 ;
+  font-size: medium;
+  font-weight: 400;
+  color:#9f9191;
+  padding-bottom: 10px;
+}
+.col-svg-text h3{
+  margin-bottom: 1rem;
 }
