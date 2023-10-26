@@ -128,6 +128,9 @@ html{
 .col-svg-word{
   display: flex;
 }
+.col-svg-woman{
+  display: flex;
+}
 .col-svg-text{
   margin: 2rem;
 }
