@@ -157,7 +157,9 @@ html{
   color: white;
   padding: 15px 40px;
   font-size: 16px;
+  cursor: pointer;
 }
+
 .col-svg .col-svg-text .button-orange button{
   background-color: #FF4C29;
   margin-top: 1rem;
