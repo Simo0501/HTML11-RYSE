@@ -134,3 +134,6 @@ html{
 .jumbo-svg{
   margin: 3rem;
 }
+.align-start{
+  display: flex;
+}
