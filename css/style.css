@@ -19,7 +19,11 @@ html{
   color: var(--blu);
 }
 .bg-white{
-  background-color: white;
+  background-color:#ffffff ;
+  height: 250px;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow: 1px 3px #F6F3FF ;
 }
 .container{
   width: 100%;
