@@ -23,7 +23,7 @@ html{
 }
 .container{
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-color: var(--blu);
 }
 .inner-container{
