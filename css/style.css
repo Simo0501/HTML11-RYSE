@@ -171,3 +171,23 @@ html{
   background-color: #1C1A4E;
   margin-top: 1rem;
 }
+.jumbo-inner-container{
+  height: 600px;
+  display: flex;
+  margin-top: 7rem;
+}
+.jumbo-inner-container .col-text{
+  margin-top: 8rem;
+  margin-left: 4rem;
+  font-size: large;
+}
+.jumbo-inner-container h3{
+  font-size: 30px;
+  padding-top: 2rem;
+  color: #1E1666;
+}
+.text-grey{
+  font-size: 15px;
+  color:#9f9191 ;
+  padding-top: 1.5rem;
+}
