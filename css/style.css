@@ -186,8 +186,29 @@ html{
   padding-top: 2rem;
   color: #1E1666;
 }
+.row .text-blu{
+  display: flex;
+  justify-content: space-between;
+}
 .text-grey{
   font-size: 15px;
   color:#9f9191 ;
   padding-top: 1.5rem;
+  font-weight: 400;
+  line-height: 28px;
+}
+.col-check {
+display: flex;
+}
+.col-check svg{
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+.col-check .svg-second{
+  margin-left: 2.7rem;
+}
+.col-check .text-blu{
+  font-size: medium;
+  font-weight: 600;
+  margin-top: 1.5rem;
 }
