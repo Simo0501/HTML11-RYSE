@@ -115,9 +115,6 @@ html{
   font-size: 2rem;
   margin-bottom: 1.7rem;
 }
-.jumbo-text{
-  padding-top: 3rem;
-}
 .jumbo-data-title{
   font-size: 1.3rem;
 }
@@ -177,7 +174,7 @@ html{
   margin-top: 7rem;
 }
 .jumbo-inner-container .col-text{
-  margin-top: 8rem;
+  margin-top: 6rem;
   margin-left: 4rem;
   font-size: large;
 }
@@ -211,4 +208,17 @@ display: flex;
   font-size: medium;
   font-weight: 600;
   margin-top: 1.5rem;
+}
+.jumbo .text-blu h3{
+  font-size: 30px;
+}
+.jumbo-img-solution{
+  display: flex;
+  justify-content: space-between;
+}
+.jumbo-img-solution-woman,
+.jumbo-img-solution-man,
+.jumbo-img-solution-card{
+  margin-top: 5rem;
+  border: 1px solid lightgrey;
 }
