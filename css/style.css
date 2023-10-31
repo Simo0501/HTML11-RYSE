@@ -243,12 +243,29 @@ background-color: var(--blu);
   border: 1px solid lightgrey;
 }
 .jumbo-img-solution-woman{
-  margin-left: 10rem;
+  margin-left: 3px;
 }
+.icon-solution,
 .icon-file{
   border: none;
   background-color: transparent;
   color: white;
   font-size: 20px;
-  border-left: 1px solid;
+  margin-left: 10.5rem;
+  border: 1px solid #281D4C;
+}
+.icon-file-text,
+.icon-file-line-text{
+  font-size: small;
+}
+.icon-file-line,
+.icon-file-line-title,
+.icon-file-line-text{
+  margin: 1px;
+}
+.icon-solution :hover,
+.icon-solution :active,
+.icon-solution :focus{
+  background-color:#281D4C ;
+  border: 1px solid #281D4C ;
 }
