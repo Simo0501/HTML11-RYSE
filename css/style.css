@@ -245,3 +245,10 @@ background-color: var(--blu);
 .jumbo-img-solution-woman{
   margin-left: 10rem;
 }
+.icon-file{
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border-left: 1px solid;
+}
