@@ -212,13 +212,31 @@ display: flex;
 .jumbo .text-blu h3{
   font-size: 30px;
 }
+.content{
+  width: 100%;
+  height: 800px;
+  background-color:#FFFFFF ;
+}
+.container-blu{
+  display: flex;
+  margin-top: 12rem;
+  width: 100%;
+  height: 500px;
+  background-color: var(--blu);
+}
 .jumbo-img-solution{
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5rem;
 }
 .jumbo-img-solution-woman,
 .jumbo-img-solution-man,
 .jumbo-img-solution-card{
-  margin-top: 5rem;
+  margin-bottom: 30rem;
+  margin-left: 4rem;
   border: 1px solid lightgrey;
+}
+.jumbo-img-solution-woman{
+  margin-left: 10rem;
 }
