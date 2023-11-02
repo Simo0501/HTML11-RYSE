@@ -273,14 +273,15 @@ margin-bottom: 4rem;
 .col-text{
   margin-left: 6rem;
 }
-.col-text .text-red{
+.col-text-text-red{
   font-size: 18px;
   padding-bottom: 1rem;
 }
-.col-text .text-blu{
+.col-text-text-blu{
   font-size: 30px;
   font-weight: 600;
   padding-bottom: 0.5rem;
+  color: var(--blu);
 }
 .button-orange{
   text-decoration: none;
@@ -297,4 +298,18 @@ margin-bottom: 4rem;
   display: flex;
   justify-content: space-evenly;
   margin-top: 5rem;
+}
+.jumbo-container-img img{
+  margin-bottom: 1.5rem;
+}
+.jumbo-container-img .text-blu{
+  margin-top: 0.7rem;
+  line-height: 30px;
+}
+.jumbo-container-img  .search,
+.jumbo-container-img  .online,
+.jumbo-container-img  .real-time{
+  border: 1px solid lightgrey;
+  padding: 2rem 2rem;
+  box-shadow: 3px 2px lightgrey;
 }
