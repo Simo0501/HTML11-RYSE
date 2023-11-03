@@ -142,12 +142,13 @@ html{
 }
 .col-svg-text h4{
   font-size: medium;
-  font-weight: 400;
   color:#9f9191;
   padding-bottom: 10px;
 }
-.col-svg-text h3{
+.col-svg-text h5{
   margin-bottom: 1rem;
+  color: #1E1765;
+  font-size: large;
 }
 .col-svg .col-svg-text .button-orange button,
 .col-svg .col-svg-text .button-blu button{
@@ -155,7 +156,7 @@ html{
   border: none;
   border-radius: 5px;
   color: white;
-  padding: 15px 40px;
+  padding: 15px 35px;
   font-size: 16px;
   cursor: pointer;
 }
@@ -240,11 +241,8 @@ margin-bottom: 4rem;
 .jumbo-img-solution-man,
 .jumbo-img-solution-card{
   margin-bottom: 13rem;
-  margin-left: 4rem;
+  margin-left: 7rem;
   border: 1px solid lightgrey;
-}
-.jumbo-img-solution-woman{
-  margin-left: 3px;
 }
 .icon-solution,
 .icon-file{
@@ -252,7 +250,7 @@ margin-bottom: 4rem;
   background-color: transparent;
   color: white;
   font-size: 20px;
-  margin-left: 12.5rem;
+  margin-left: 13.5rem;
   border: 1px solid #281D4C;
 }
 .icon-file-text,
@@ -276,14 +274,17 @@ margin-bottom: 4rem;
 .col-text-text-red{
   font-size: 18px;
   padding-bottom: 1rem;
+  color: var(--redtext);
+  margin-left: 7rem;
 }
 .col-text-text-blu{
   font-size: 30px;
   font-weight: 600;
   padding-bottom: 0.5rem;
   color: var(--blu);
+  margin-left: 7rem;
 }
-.button-orange{
+.button-orange-title{
   text-decoration: none;
   border: none;
   border-radius: 5px;
@@ -292,24 +293,25 @@ margin-bottom: 4rem;
   font-size: 16px;
   cursor: pointer;
   background-color: #FF4A22;
-  margin-right: 13rem;
+  margin-right: 7rem;
 }
 .jumbo-container-img{
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 5rem;
+  justify-content: center;
+  margin-top: 2rem;
 }
-.jumbo-container-img img{
-  margin-bottom: 1.5rem;
+.jumbo-container-img .search,
+.jumbo-container-img .online,
+.jumbo-container-img .real,
+.jumbo-container-img .page,
+.jumbo-container-img .seo,
+.jumbo-container-img .Social{
+  padding: 3rem 2rem;
+  border: 1px solid  #F6F3FF;
+  box-shadow: 2px 3px #F6F3FF;
+  margin-left: 5rem;
 }
 .jumbo-container-img .text-blu{
   margin-top: 0.7rem;
   line-height: 30px;
-}
-.jumbo-container-img  .search,
-.jumbo-container-img  .online,
-.jumbo-container-img  .real-time{
-  border: 1px solid lightgrey;
-  padding: 2rem 2rem;
-  box-shadow: 3px 2px lightgrey;
 }
