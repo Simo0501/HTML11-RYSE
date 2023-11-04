@@ -381,7 +381,7 @@ margin-left: 1rem;
 }
 .jumbo-inner-container-search .col-text-man-search{
   margin-top: 7rem;
-  margin-right: 7rem;
+  margin-right: 9rem;
 }
 .jumbo-inner-container-search .col-text-man-search  h3{
   font-size: 30px;
@@ -396,16 +396,17 @@ margin-left: 1rem;
 }
 .jumbo-inner-container-search .col-text-man-search p{
   line-height: 28px;
+  margin-bottom: 1.5rem;
 }
-.row-name-data{
+.row-name-data,
+.row-mobile{
   display: flex;
   justify-content: space-between;
   width: 500px;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 .jumbo-inner-container-search .row-name-data .row-data{
   width: 55px;
-  padding-bottom: 1rem;
   border-bottom: 6px solid #E6E5EA;
 }
 .jumbo-inner-container-search .row-name-data .row-name{
@@ -413,8 +414,21 @@ margin-left: 1rem;
   width: 445px;
   border-bottom: 6px solid #FF4717;
 }
-.jumbo-inner-container-search .row-name-data h4{
+.jumbo-inner-container-search .row-name-data h4,
+.jumbo-inner-container-search .row-mobile h4{
   padding-left: 8px;
   color:#1E1666 ;
   font-size: large;
+}
+.jumbo-inner-container-search .row-mobile .row-data-mobile{
+  width: 150px;
+  border-bottom: 6px solid #E6E5EA;
+}
+.jumbo-inner-container-search .row-mobile .row-name-mobile{
+  padding-bottom: 1rem;
+  width: 350px;
+  border-bottom: 6px solid #6869F2;
+}
+.jumbo-inner-container-search .row-mobile .row-data-mobile{
+  padding-left: 6.5rem;
 }
