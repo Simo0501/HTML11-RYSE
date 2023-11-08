@@ -574,9 +574,8 @@ margin-bottom: 4rem;
   background-color: var(--blu);
   color: white;
 }
-.col-ryse h2{
-  margin-bottom: 2rem;
-  font-size: 30px;
+.col-ryse img{
+  margin-bottom: 1rem;
 }
 .svg-telephone{
   display: flex;
@@ -588,9 +587,9 @@ margin-bottom: 4rem;
   padding: 1rem;
 }
 .svg-telephone-date h4{
-  font-size: 20px;
+  font-size: 18px;
 }
-.svg-telephone-date p{
+.svg-telephone .svg-telephone-date p{
   margin-top: 0.5rem;
 }
 .col-ryse p{
