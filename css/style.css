@@ -595,6 +595,36 @@ margin-bottom: 4rem;
 .col-ryse p{
   margin-top: 1rem;
 }
+.col-quick .col-quick-list .col-quick-list-item,
+.col-get .col-get-list .col-get-list-item {
+  list-style-type: none;
+}
+.col-quick .col-quick-list .col-quick-list-item a,
+.col-get .col-get-list .col-get-list-item a{
+  text-decoration: none;
+  color: white;
+  line-height: 2.3rem;
+}
+.col-quick .col-quick-list .col-quick-list-item h2{
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+.col-get-list{
+  display: flex;
+  gap: 1rem;
+}
+.col-get h2{
+  font-size: 20px;
+  margin-bottom: 2.3rem;
+}
+.col-get p{
+  margin-bottom: 0.5rem;
+}
+.col-get-info{
+  color: #993C29;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
 
 
 
